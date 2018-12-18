@@ -1,0 +1,70 @@
+
+/* 
+    Created on : Nov 24, 2018, 4:52:12 PM
+    Author     : Christian Pody
+*/
+#board{
+    border-collapse: collapse;
+    position: relative;
+    left: 50%;
+    margin-left: -161px;
+    top: 25px;
+    bottom: 25px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.cell
+{
+    background-color: #C5C6C7;
+    border: 4px #66FCF1 solid;
+    height: 100px;
+    width: 100px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 70px;
+    display: inline-block;    
+    cursor: pointer;    
+}
+table tr:first-child td {
+	border-top: 0;
+}
+table tr:last-child td {
+	border-bottom: 0;
+}
+table tr td:first-child {
+	border-left: 0;
+}
+table tr td:last-child {
+	border-right: 0;
+}
+.border{
+    position: relative;
+    border-bottom: #66FCF1 solid 3px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#replay{
+    background-color: #C5C6C7;
+    border: none;
+    color: white;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    margin-left: -73px;
+}
+body{
+    background-color: #0B0C10;
+    color: #66FCF1;
+}
